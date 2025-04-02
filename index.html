@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão contábil</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>       
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">  
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>cpf</label>    
+                </div>
+                <div class="input-box">  
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Senha</label>    
+                </div>
+                <div class="login-rememberforgot">
+                    <label><input type="checkbox">
+                    Lembre-me</label>
+                    <p><a href="#" class="rememberforgot-link">Esqueceu a senha?</a></p>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Não possui uma conta?<a href="#" class="register-link">Registre-se</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+          <h2>Registre-se</h2>
+          <form action="#">
+              <div class="input-box">  
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input type="text" required>
+                <label>Nome</label>    
+              </div>
+              <div class="input-box">  
+                  <span class="icon"><ion-icon name="person"></ion-icon></span>
+                  <input type="text" required>
+                  <label>cpf</label>    
+              </div>
+              <div class="input-box">  
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label>Email</label>    
+              </div>
+              <div class="input-box">  
+                <span class="icon"><ion-icon name="call"></ion-icon></span>
+                <input type="number" required>
+                <label>Telefone</label>    
+              </div>
+              <div class="input-box">  
+                  <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                  <input type="password" required>
+                  <label>Senha</label>    
+              </div>
+              <div class="input-box">  
+                <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                <input type="password" required>
+                <label>Confirmar senha</label>    
+            </div>
+            
+              <button type="submit" class="btn">Registrar</button>
+              <div class="login-register">
+                  <p>Já possui uma conta?<a href="#" class="login-link">Conecte-se</a></p>
+              </div>
+          </form>
+      </div>
+      <div class="form-box rememberforgot">
+        <h2>Recuperar</h2>
+        <form action="#">
+        
+            <div class="input-box">  
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input type="text" required>
+                <label>cpf</label>    
+            </div>
+            
+            <div class="rememberforgot-redefinir">
+                <a href="#" class="redefinir-link"><button type="submit" class="btn">Enviar</button></a>
+                
+            </div>
+            <div class="login-rememberforgot">
+                <a href="#" class="login-link">Conecte-se</a>
+            </div>
+        </form>
+    </div>
+    <div class="form-box redefinir">
+        <h2>Redefinir senha</h2>
+        <form action="#">
+            <div class="input-box">  
+                <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                <input type="password" required>
+                <label>Nova senha</label>    
+            </div>
+            <div class="input-box">  
+              <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+              <input type="password" required>
+              <label>Confirmar senha</label>    
+          </div>
+          <div class="login-redefinir">
+            <a href="#" class="login-link">Conecte-se</a>
+        </div>
+          <button type="submit" class="btn">Enviar</button>
+        
+        </form>
+    </div>
+      
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
