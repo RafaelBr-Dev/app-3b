@@ -43,8 +43,7 @@ Este projeto utiliza uma stack sólida e atual para garantir performance e escal
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-projeto.git
-
+git clone https://github.com/RafaelViana-Dev/app-3b.git
 # Acesse o diretório
 cd nome-do-projeto
 
@@ -53,5 +52,59 @@ docker-compose up -d
 
 # Acesse o sistema via navegador
 http://localhost:8000
+```
+## 📊 Funcionalidades do Sistema de Gestão Contábil
+    1. Cadastro de Empresas e Usuários
+Gerenciamento de múltiplas empresas ou clientes contábeis
+
+Níveis de acesso (admin, contador, auxiliar, etc.)
+
+Controle de permissões por usuário
+
+    2. Lançamentos Contábeis
+Registro de lançamentos contábeis (débito/crédito)
+
+Classificação por plano de contas
+
+Validação automática de lançamentos
+
+    3. Emissão de Relatórios
+Balancete de verificação
+
+Diário e razão contábil
+
+Balanço patrimonial
+
+Relatórios exportáveis em PDF/Excel
+
+    4. Plano de Contas Personalizável
+Criação, edição e exclusão de contas
+
+Agrupamento por categorias (ativo, passivo, receita, despesa, etc.)
+
+    5. Integração com Financeiro
+Conciliação bancária
+
+Controle de contas a pagar e a receber
+
+Importação de extratos bancários
+
+    6. Dashboard Financeiro
+Gráficos interativos de receitas, despesas, lucros e fluxo de caixa
+
+Indicadores contábeis em tempo real
+
+    7. Emissão de Documentos e Comprovantes
+Recibos, comprovantes de pagamento, relatórios mensais
+
+Geração automática com base nos lançamentos
 
 
+## 👥 Equipe Desenvolvedora
+Este projeto foi desenvolvido de forma colaborativa pelos alunos do IFTO Araguaína juntamente com o professo Iury Gomes de Oliveira, promovendo o aprendizado prático e o trabalho em equipe.
+
+## 📄 Licença
+Este projeto é de código aberto e está licenciado sob a MIT License.
+
+## 📫 Contato
+Para dúvidas, sugestões ou contribuições, entre em contato conosco "rafael.viana3@estudante.ifto.edu.br" ou abra uma issue neste repositório.
